@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body{ background-color: lavender;
+    color: plum;
+}
+
+@media screen and (max-width: 500px) {
+    /*any screen resolution from 0-500px wide*/
+    
+    body{ 
+        background-color: lightsteelblue;
+        color: coral ;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body{ 
+        background-color: indianred;
+        color: cadetblue;
+    }
+    
+}
